@@ -1,0 +1,52 @@
+
+.contact-tusec-img{
+    width: 605px;
+    height: 605px;
+}
+.contact-text{
+    font-size:40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:20px
+}
+.contact-value{
+    margin-top : 80px;
+    background: #E4E0E0;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+.contact-inputs{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-input{
+    width: 400px;
+}
+
+@media  screen and (max-width:480px){
+    .contact-tusec-img{
+        width: 305px;
+        height: 305px;
+        margin-left:10px
+    }
+    .contact-value .contact-text{
+        font-size:30px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top:20px
+    }
+    .contact-inputs{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-input{
+        width: 250px;
+    }
+    .contact-row{
+        margin: 10px;
+    }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.Module.css";
+import "./Home.Module.css";
 import { motion } from "framer-motion";
 import tusec from "../../assets/tusec4.png";
 import tusec2 from "../../assets/tusec2.png";
@@ -9,18 +9,9 @@ import ders3 from "../../assets/ders3.jpeg";
 import recep from "../../assets/recep.jpg";
 import seyit from "../../assets/seyit.jpg";
 
-const About = () => {
+const Home = () => {
   return (
-    // <div className="inner">
-    //   <span>i</span>
-    //   <h1>Test</h1>
-    //   <p>
-    //     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-    //     inventore molestiae sunt qui dignissimos, facilis quasi a placeat iste
-    //     error repellendus ut nihil expedita enim distinctio porro sint,
-    //     cupiditate eius.
-    //   </p>
-    // </div>
+    
     <>
       <div className="container">
         <div
@@ -34,7 +25,7 @@ const About = () => {
           <img
             src={tusec}
             className="tusec-img"
-            
+            alt = ""
           ></img>
         </div>
         <div
@@ -64,7 +55,7 @@ const About = () => {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={tusec2}  className="tusec-img-2"></img>
+            <img src={tusec2}  className="tusec-img-2" alt=""></img>
           </div>
         </div>
         <div
@@ -413,4 +404,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
