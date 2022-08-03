@@ -95,7 +95,7 @@ const Home = () => {
           />
         </div>
         <div>
-          <div className="row" style={{marginTop:"50px",marginBottom:"50px"}}>
+          <div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
           <div className="col-md-3">
               <div
                 class="card"
@@ -335,7 +335,7 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="img-grid">
+        <div className="img-grid" style={{marginTop:"80px"}}>
           <motion.div className="img-wrap" layout whileHover={{ opacity: 1 }}>
             <motion.img
               src={ders1}
@@ -367,7 +367,7 @@ const Home = () => {
             />
           </motion.div>
         </div>
-        <div className="img-grid">
+        <div className="img-grid" style={{marginBottom:"80px"}}>
           <motion.div className="img-wrap" layout whileHover={{ opacity: 1 }}>
             <motion.img
               src={ders1}

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Route, Routes, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import "./Navbar.Module.css";
 
 import { init } from "ityped";
