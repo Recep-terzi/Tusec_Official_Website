@@ -8,7 +8,9 @@ import ders2 from "../../assets/ders2.jpeg";
 import ders3 from "../../assets/ders3.jpeg";
 import recep from "../../assets/recep.jpg";
 import seyit from "../../assets/seyit.jpg";
-
+import furkan from "../../assets/furkan.jpg";
+import deniz from "../../assets/deniz.jpg";
+import ramazan from "../../assets/ramazan.jpg";
 const Home = () => {
   return (
     
@@ -95,7 +97,7 @@ const Home = () => {
           />
         </div>
         <div>
-          <div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
+        <div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
           <div className="col-md-3">
               <div
                 class="card"
@@ -211,7 +213,7 @@ const Home = () => {
               >
                 <img
                   className="card-img-top"
-                  src={recep}
+                  src={furkan}
                   alt=""
                   style={{
                     width: "170px",
@@ -220,8 +222,8 @@ const Home = () => {
                   }}
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Recep Terzi</h5>
-                  <p class="card-text">Front-end Developer</p>
+                  <h5 class="card-title">M. Furkan Saydam</h5>
+                  <p class="card-text">Cyber Security</p>
                   <ul class="social-icons" >
                     <li >
                       <a class="twitter" href="/" style={{background:"black"}}>
@@ -239,7 +241,7 @@ const Home = () => {
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a class="linkedin" href="https://www.instagram.com/furkan.saydam_/" style={{background:"black"}}>
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
@@ -261,7 +263,7 @@ const Home = () => {
               >
                 <img
                   className="card-img-top"
-                  src={recep}
+                  src={deniz}
                   alt=""
                   style={{
                     width: "170px",
@@ -270,8 +272,8 @@ const Home = () => {
                   }}
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Recep Terzi</h5>
-                  <p class="card-text">Front-end Developer</p>
+                  <h5 class="card-title">Deniz</h5>
+                  <p class="card-text">Cyber Security</p>
                   <ul class="social-icons" >
                     <li >
                       <a class="twitter" href="/" style={{background:"black"}}>
@@ -289,7 +291,7 @@ const Home = () => {
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a class="linkedin" href="https://www.instagram.com/dennisclk/" style={{background:"black"}}>
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
@@ -297,6 +299,60 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            
+          </div><div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
+          <div className="col-md-3">
+              <div
+                class="card"
+                style={{
+                  width: "18rem",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  padding: "10px",
+                  boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
+                  borderRadius:"10px"
+                }}
+              >
+                <img
+                  className="card-img-top"
+                  src={ramazan}
+                  alt=""
+                  style={{
+                    width: "170px",
+                    height: "170px",
+                    borderRadius: "50%",
+                  }}
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ramazan</h5>
+                  <p class="card-text">Cyber Security</p>
+                  <ul class="social-icons" >
+                    <li >
+                      <a class="twitter" href="/" style={{background:"black"}}>
+                        <i class="fa fa-twitter" ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="/" style={{background:"black"}}>
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="/" style={{background:"black"}}>
+                        <i class="fa fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="https://www.instagram.com/tanrikulu.ramazan/" style={{background:"black"}}>
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
         <div
