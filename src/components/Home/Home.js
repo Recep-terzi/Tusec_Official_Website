@@ -6,11 +6,13 @@ import tusec2 from "../../assets/tusec2.png";
 import ders1 from "../../assets/ders1.jpeg";
 import ders2 from "../../assets/ders2.jpeg";
 import ders3 from "../../assets/ders3.jpeg";
-import recep from "../../assets/recep.jpg";
 import seyit from "../../assets/seyit.jpg";
 import furkan from "../../assets/furkan.jpg";
 import deniz from "../../assets/deniz.jpg";
 import ramazan from "../../assets/ramazan.jpg";
+import merve from "../../assets/merve.jpg";
+import sümeyye from "../../assets/sümeyye.jpg";
+
 const Home = () => {
   return (
     
@@ -98,57 +100,7 @@ const Home = () => {
         </div>
         <div>
         <div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
-          <div className="col-md-3">
-              <div
-                class="card"
-                style={{
-                  width: "18rem",
-                  textAlign: "center",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  padding: "10px",
-                  boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
-                }}
-              >
-                <img
-                  className="card-img-top"
-                  src={recep}
-                  alt=""
-                  style={{
-                    width: "170px",
-                    height: "170px",
-                    borderRadius: "50%",
-                  }}
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Recep Terzi</h5>
-                  <p class="card-text">Front-end Developer</p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
-                        <i class="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
-                        <i class="fa fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><div className="col-md-3">
+         <div className="col-md-3">
               <div
                 class="card"
                 style={{
@@ -299,9 +251,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            
-          </div><div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
-          <div className="col-md-3">
+            <div className="col-md-3">
               <div
                 class="card"
                 style={{
@@ -352,7 +302,110 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            
+          </div><div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
+         
+            <div className="col-md-3">
+              <div
+                class="card"
+                style={{
+                  width: "18rem",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  padding: "10px",
+                  boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
+                  borderRadius:"10px"
+                }}
+              >
+                <img
+                  className="card-img-top"
+                  src={merve}
+                  alt=""
+                  style={{
+                    width: "170px",
+                    height: "170px",
+                    borderRadius: "50%",
+                  }}
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Merve Civan</h5>
+                  <p class="card-text">Cyber Security</p>
+                  <ul class="social-icons" >
+                    <li >
+                      <a class="twitter" href="/" style={{background:"black"}}>
+                        <i class="fa fa-twitter" ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="https://www.linkedin.com/in/merve-civan-1a21bb233" style={{background:"black"}}>
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="github" href="https://github.com/Freedom-c" style={{background:"black"}}>
+                        <i class="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="instgram" href="https://www.instagram.com/mervenne_/" style={{background:"black"}}>
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div
+                class="card"
+                style={{
+                  width: "18rem",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  padding: "10px",
+                  boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
+                  borderRadius:"10px"
+                }}
+              >
+                <img
+                  className="card-img-top"
+                  src={sümeyye}
+                  alt=""
+                  style={{
+                    width: "170px",
+                    height: "170px",
+                    borderRadius: "50%",
+                  }}
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sümeyye Gümüş</h5>
+                  <p class="card-text">Cyber Security</p>
+                  <ul class="social-icons" >
+                    <li >
+                      <a class="twitter" href="/" style={{background:"black"}}>
+                        <i class="fa fa-twitter" ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="https://www.linkedin.com/in/merve-civan-1a21bb233" style={{background:"black"}}>
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="https://github.com/sumeyyegms/sumeyyegms" style={{background:"black"}}>
+                        <i class="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="linkedin" href="https://www.instagram.com/sumeyyegmus/" style={{background:"black"}}>
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div

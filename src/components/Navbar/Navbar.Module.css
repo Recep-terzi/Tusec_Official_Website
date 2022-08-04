@@ -24,7 +24,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 20;
   }
@@ -158,5 +159,10 @@
       font-size: 1.8rem;
       cursor: pointer;
       color: black;
+    }
+  }
+  @media screen and (max-width:470px){
+    .navbar{
+      position: sticky;
     }
   }
