@@ -1,0 +1,11 @@
+.calendar-div{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 760px){
+    .calendar-div{
+        display: grid;
+    }
+    
+}

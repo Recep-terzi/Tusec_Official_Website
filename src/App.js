@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import { useState, useEffect } from "react";
 import Loading from "./components/Loading/Loading";
 import NotFound from "./components/NotFound/NotFound";
+import CalendarPage from "./components/CalendarPage/CalendarPage";
 
 function App({ type, color }) {
   const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ function App({ type, color }) {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="*" element={<NotFound />}></Route>
+            <Route path="/calendar" element={<CalendarPage />}></Route>
             <Route path="/projects" element={<Project />}></Route>
             <Route path="/contact" element={<Contact />} type={type} color={color}></Route>
           </Routes>

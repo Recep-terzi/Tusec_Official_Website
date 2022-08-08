@@ -12,12 +12,13 @@ import deniz from "../../assets/deniz.jpg";
 import ramazan from "../../assets/ramazan.jpg";
 import merve from "../../assets/merve.jpg";
 import sümeyye from "../../assets/sümeyye.jpg";
+import Project from "../Project/Project";
 
 const Home = () => {
   return (
     
     <>
-      <div className="container">
+      <div className="">
         <div
           style={{
             marginTop: "30px",
@@ -25,6 +26,7 @@ const Home = () => {
             justifyContent: "center",
             textAlign: "center",
           }}
+          className="container"
         >
           <img
             src={tusec}
@@ -33,34 +35,11 @@ const Home = () => {
           ></img>
         </div>
         <div
-          className="row metin-row"
+          className=" metin-row"
           
         >
-          <div
-            className="col-md-6 tirtik tirtik2"
-            style={{ backgroundColor: "#E4E0E0", color: "#000" }}
-          >
-            <p
-              
-            >
-              TUSEC'in amacı başta Bilişim Sistemleri ve Teknolojisi öğrencileri
-              olmak üzere tüm KYÇUBYO öğrencilerini güncel teknolojileri siber
-              uzayı hakkında temelden ileri düzeye doğru Siber Güvenlik
-              eğitimleri, panelleri, konferansları, workshopları, bootcampleri
-              ve staj imkanları gibi faaliyetler ve imkanlar sağlamaktadır.
-              Hızla gelişen teknoloji dünyasında siber ihtiyaçta artmaktadır bu
-              bağlamda siber kültür ve genel siber güvenlik eğitimleri ve
-              gereksinimleri kümelenme üyelerine temelden en doğru şekilde
-              aşılamayı hedeflemektedir Cumhur Başkanlığı Savunma Sanayi
-              Bakanlığı, Dijital Dönüşüm Ofisi Bakanlığı himayesi altında
-              kuracağımız TUSEC öğrenci topluluğu Türkiye Siber Güvenlik
-              Kümelenmesi paydaşı olması hem okulumuz bünyesinde hem de
-              Üniversite bünyesinde staj ve eğitim imkanları sağlamaktadır.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <img src={tusec2}  className="tusec-img-2" alt=""></img>
-          </div>
+          <Project />
+          
         </div>
         <div
           style={{
@@ -70,6 +49,7 @@ const Home = () => {
             justifyContent: "center",
             marginTop: "40px",
           }}
+          className="container"
         >
           <div
             style={{
@@ -78,6 +58,7 @@ const Home = () => {
               borderBottom: "1px solid black",
               height: "2px",
             }}
+            className="container"
           />
           <span
             style={{
@@ -85,6 +66,7 @@ const Home = () => {
               paddingRight: "16px",
               fontWeight: "bold",
               fontSize: "30px",
+              
             }}
           >
             Klüp Üyeleri
@@ -98,8 +80,8 @@ const Home = () => {
             }}
           />
         </div>
-        <div>
-        <div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
+        <div className="container">
+        <div className="row " style={{marginTop:"80px",marginBottom:"80px"}} >
          <div className="col-md-3">
               <div
                 class="card"
@@ -416,6 +398,7 @@ const Home = () => {
             justifyContent: "center",
             marginTop: "40px",
           }}
+          className="container"
         >
           <div
             style={{
@@ -424,6 +407,7 @@ const Home = () => {
               borderBottom: "1px solid black",
               height: "2px",
             }}
+            className="container"
           />
           <span
             style={{
@@ -444,7 +428,7 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="img-grid" style={{marginTop:"80px"}}>
+        <div className="img-grid container" style={{marginTop:"80px"}}>
           <motion.div className="img-wrap" layout whileHover={{ opacity: 1 }}>
             <motion.img
               src={ders1}
@@ -476,7 +460,7 @@ const Home = () => {
             />
           </motion.div>
         </div>
-        <div className="img-grid" style={{marginBottom:"80px"}}>
+        <div className="img-grid container" style={{marginBottom:"80px"}}>
           <motion.div className="img-wrap" layout whileHover={{ opacity: 1 }}>
             <motion.img
               src={ders1}

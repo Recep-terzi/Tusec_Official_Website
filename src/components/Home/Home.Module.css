@@ -1,10 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 .img-grid {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
-  
 }
 .img-wrap {
   overflow: hidden;
@@ -22,11 +21,12 @@
   top: 0;
   left: 0;
 }
-.tirtik{
+.tirtik {
   position: relative;
   color: white;
   background-color: #000;
   text-align: center;
+  background-image: url();
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -40,61 +40,76 @@
   left: 0;
   right: 0;
   /* TODO Add browser prefixes */
-  background: linear-gradient( 45deg, transparent 33.333%, #000 33.333%, #000 66.667%, transparent 66.667%), linear-gradient( -45deg, transparent 33.333%, #000 33.333%, #000 66.667%, transparent 66.667%);
+  background: linear-gradient(
+      45deg,
+      transparent 33.333%,
+      #000 33.333%,
+      #000 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 33.333%,
+      #000 33.333%,
+      #000 66.667%,
+      transparent 66.667%
+    );
   background-size: 8px 20px;
   /* toothSize doubleHeight */
   background-position: 0 -10px;
   /* horizontalOffset -height */
 }
-.tusec-img{
+.tusec-img {
   width: 700px;
   height: 650px;
   margin-bottom: 160px;
-  margin-top:100px;
+  margin-top: 100px;
 }
-.tusec-img-2{
+.tusec-img-2 {
   width: 700px;
   height: 100%;
 }
-.metin-row{
+.metin-row {
   margin-top: 30px;
   margin-bottom: 50px;
 }
 .tirtik p {
-  padding: 90px;
+  padding: 150px;
+  padding-top: 230px;
+  padding-bottom: 230px;
   font-size: 20px;
   text-align: justify;
-
 }
-@media screen and (max-width: 414px){
-  .tusec-img{
+.tirtik2 p{
+  font-family: 'Roboto Mono', monospace;
+}
+@media screen and (max-width: 414px) {
+  .tusec-img {
     width: 380px;
     margin-left: -10px;
     height: 400px;
   }
-  .tusec-img-2{
+  .tusec-img-2 {
     margin-left: -25px;
     width: 365px;
   }
-  .col-md-3{
-    display:flex;
+  .col-md-3 {
+    display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
-  .img-grid{
+  .img-grid {
     display: block;
-    
   }
-  .img-wrap{
+  .img-wrap {
     margin-bottom: 30px;
   }
-  
-  .metin-row{
+
+  .metin-row {
     padding: 20px;
   }
   .tirtik p {
-    font-size:15px;
+    font-size: 15px;
     padding: 40px;
   }
 }
-

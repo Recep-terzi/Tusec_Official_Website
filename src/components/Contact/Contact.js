@@ -58,12 +58,7 @@ const Contact = ({ type, color }) => {
                 <img className="contact-tusec-img" src={tusec2} alt=""></img>
               </div>
               <form onSubmit={sendEmail} className="col-md-6 contact-value">
-                <Typography
-                  sx={{ fontSize: "40px", mt: 3 }}
-                  className="contact-text"
-                >
-                  İletişim Formu
-                </Typography>
+                
                 <div className="contact-inputs">
                   <TextField
                     id="standard-basic"
