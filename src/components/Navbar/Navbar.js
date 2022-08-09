@@ -15,8 +15,6 @@ const Navbar = () => {
       showCursor: false,
       backDelay: 1500,
       startDelay: 100,
-      cursorChar:"*",
-      disableBackTyping:true,
       typeSpeed: 50,
       strings: ["Welcome to", "TUSEC", ":)"],
     });

@@ -35,12 +35,13 @@
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style:none;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  display:flex;
+
 }
-.footer-links li
-{
-  display:block
-}
+
 .footer-links a
 {
   color:#000;
@@ -163,5 +164,7 @@
 
 
 .hizli-link{
-  text-align: end;
+  text-align: center;
+  
 }
+
