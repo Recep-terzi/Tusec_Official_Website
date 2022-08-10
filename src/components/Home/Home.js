@@ -102,15 +102,7 @@ const Home = () => {
                   <h5 class="card-title">Seyit Yusuf Baş</h5>
                   <p class="card-text">Cyber Security </p>
                   <ul class="social-icons">
-                    <li>
-                      <a
-                        class="twitter"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         class="linkedin"
@@ -120,22 +112,14 @@ const Home = () => {
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
+                   
                     <li>
                       <a
-                        class="linkedin"
+                        class="github"
                         href="/"
                         style={{ background: "black" }}
                       >
-                        <i class="fa fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="linkedin"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-github"></i>
                       </a>
                     </li>
                   </ul>
@@ -169,15 +153,7 @@ const Home = () => {
                   <h5 class="card-title">M. Furkan Saydam</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                    <li>
-                      <a
-                        class="twitter"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
+                    
                     <li>
                       <a
                         class="linkedin"
@@ -189,22 +165,14 @@ const Home = () => {
                     </li>
                     <li>
                       <a
-                        class="linkedin"
+                        class="github"
                         href="/"
                         style={{ background: "black" }}
                       >
-                        <i class="fa fa-youtube"></i>
+                        <i class="fa fa-github"></i>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        class="linkedin"
-                        href="https://www.instagram.com/furkan.saydam_/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -236,15 +204,7 @@ const Home = () => {
                   <h5 class="card-title">Deniz</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                    <li>
-                      <a
-                        class="twitter"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         class="linkedin"
@@ -254,22 +214,14 @@ const Home = () => {
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
+                    
                     <li>
                       <a
-                        class="linkedin"
+                        class="github"
                         href="/"
                         style={{ background: "black" }}
                       >
-                        <i class="fa fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="linkedin"
-                        href="https://www.instagram.com/dennisclk/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-github"></i>
                       </a>
                     </li>
                   </ul>
@@ -303,15 +255,7 @@ const Home = () => {
                   <h5 class="card-title">Ramazan</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                    <li>
-                      <a
-                        class="twitter"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         class="linkedin"
@@ -323,22 +267,14 @@ const Home = () => {
                     </li>
                     <li>
                       <a
-                        class="linkedin"
+                        class="github"
                         href="/"
                         style={{ background: "black" }}
                       >
-                        <i class="fa fa-youtube"></i>
+                        <i class="fa fa-github"></i>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        class="linkedin"
-                        href="https://www.instagram.com/tanrikulu.ramazan/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -375,15 +311,7 @@ const Home = () => {
                   <h5 class="card-title">Merve Civan</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                    <li>
-                      <a
-                        class="twitter"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         class="linkedin"
@@ -402,15 +330,7 @@ const Home = () => {
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        class="instgram"
-                        href="https://www.instagram.com/mervenne_/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -442,15 +362,7 @@ const Home = () => {
                   <h5 class="card-title">Sümeyye Gümüş</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                    <li>
-                      <a
-                        class="twitter"
-                        href="/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         class="linkedin"
@@ -469,15 +381,7 @@ const Home = () => {
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        class="linkedin"
-                        href="https://www.instagram.com/sumeyyegmus/"
-                        style={{ background: "black" }}
-                      >
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
