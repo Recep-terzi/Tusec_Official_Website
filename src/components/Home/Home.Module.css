@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
 .img-grid {
   margin: 20px auto;
   display: grid;
@@ -75,8 +77,8 @@
 }
 .tirtik p {
   padding: 150px;
-  padding-top: 230px;
-  padding-bottom: 230px;
+  padding-top: 180px;
+  padding-bottom: 180px;
   font-size: 20px;
   text-align: justify;
 }
@@ -112,4 +114,7 @@
     font-size: 15px;
     padding: 40px;
   }
+}
+.icon-hover :hover{
+  cursor: pointer;
 }

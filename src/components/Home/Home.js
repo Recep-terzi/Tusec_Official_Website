@@ -16,9 +16,8 @@ import Project from "../Project/Project";
 
 const Home = () => {
   return (
-    
     <>
-      <div className="">
+      <div className="container">
         <div
           style={{
             marginTop: "30px",
@@ -26,20 +25,12 @@ const Home = () => {
             justifyContent: "center",
             textAlign: "center",
           }}
-          className="container"
+          className=""
         >
-          <img
-            src={tusec}
-            className="tusec-img"
-            alt = ""
-          ></img>
+          <img src={tusec} className="tusec-img" alt=""></img>
         </div>
-        <div
-          className=" metin-row"
-          
-        >
+        <div className="metin-row">
           <Project />
-          
         </div>
         <div
           style={{
@@ -49,7 +40,7 @@ const Home = () => {
             justifyContent: "center",
             marginTop: "40px",
           }}
-          className="container"
+          className=""
         >
           <div
             style={{
@@ -58,7 +49,7 @@ const Home = () => {
               borderBottom: "1px solid black",
               height: "2px",
             }}
-            className="container"
+            className=""
           />
           <span
             style={{
@@ -66,7 +57,6 @@ const Home = () => {
               paddingRight: "16px",
               fontWeight: "bold",
               fontSize: "30px",
-              
             }}
           >
             Klüp Üyeleri
@@ -80,9 +70,12 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="container">
-        <div className="row " style={{marginTop:"80px",marginBottom:"80px"}} >
-         <div className="col-md-3">
+        <div className="">
+          <div
+            className="row "
+            style={{ marginTop: "80px", marginBottom: "80px" }}
+          >
+            <div className="col-md-3">
               <div
                 class="card"
                 style={{
@@ -92,7 +85,7 @@ const Home = () => {
                   alignItems: "center",
                   padding: "10px",
                   boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
+                  borderRadius: "10px",
                 }}
               >
                 <img
@@ -108,31 +101,48 @@ const Home = () => {
                 <div class="card-body">
                   <h5 class="card-title">Seyit Yusuf Baş</h5>
                   <p class="card-text">Cyber Security </p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
+                  <ul class="social-icons">
+                    <li>
+                      <a
+                        class="twitter"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
+                        <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-            </div><div className="col-md-3">
+            </div>
+            <div className="col-md-3">
               <div
                 class="card"
                 style={{
@@ -142,7 +152,7 @@ const Home = () => {
                   alignItems: "center",
                   padding: "10px",
                   boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
+                  borderRadius: "10px",
                 }}
               >
                 <img
@@ -158,31 +168,48 @@ const Home = () => {
                 <div class="card-body">
                   <h5 class="card-title">M. Furkan Saydam</h5>
                   <p class="card-text">Cyber Security</p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
+                  <ul class="social-icons">
+                    <li>
+                      <a
+                        class="twitter"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
+                        <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://www.instagram.com/furkan.saydam_/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://www.instagram.com/furkan.saydam_/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-            </div><div className="col-md-3">
+            </div>
+            <div className="col-md-3">
               <div
                 class="card"
                 style={{
@@ -192,7 +219,7 @@ const Home = () => {
                   alignItems: "center",
                   padding: "10px",
                   boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
+                  borderRadius: "10px",
                 }}
               >
                 <img
@@ -208,24 +235,40 @@ const Home = () => {
                 <div class="card-body">
                   <h5 class="card-title">Deniz</h5>
                   <p class="card-text">Cyber Security</p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
+                  <ul class="social-icons">
+                    <li>
+                      <a
+                        class="twitter"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
+                        <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://www.instagram.com/dennisclk/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://www.instagram.com/dennisclk/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
@@ -243,7 +286,7 @@ const Home = () => {
                   alignItems: "center",
                   padding: "10px",
                   boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
+                  borderRadius: "10px",
                 }}
               >
                 <img
@@ -259,24 +302,40 @@ const Home = () => {
                 <div class="card-body">
                   <h5 class="card-title">Ramazan</h5>
                   <p class="card-text">Cyber Security</p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
+                  <ul class="social-icons">
+                    <li>
+                      <a
+                        class="twitter"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
+                        <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://www.instagram.com/tanrikulu.ramazan/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://www.instagram.com/tanrikulu.ramazan/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
@@ -284,8 +343,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div><div className="row" style={{marginTop:"80px",marginBottom:"80px"}}>
-         
+          </div>
+          <div
+            className="row"
+            style={{ marginTop: "80px", marginBottom: "80px" }}
+          >
             <div className="col-md-3">
               <div
                 class="card"
@@ -296,7 +358,7 @@ const Home = () => {
                   alignItems: "center",
                   padding: "10px",
                   boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
+                  borderRadius: "10px",
                 }}
               >
                 <img
@@ -312,24 +374,40 @@ const Home = () => {
                 <div class="card-body">
                   <h5 class="card-title">Merve Civan</h5>
                   <p class="card-text">Cyber Security</p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
+                  <ul class="social-icons">
+                    <li>
+                      <a
+                        class="twitter"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
+                        <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://www.linkedin.com/in/merve-civan-1a21bb233" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://www.linkedin.com/in/merve-civan-1a21bb233"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="github" href="https://github.com/Freedom-c" style={{background:"black"}}>
+                      <a
+                        class="github"
+                        href="https://github.com/Freedom-c"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="instgram" href="https://www.instagram.com/mervenne_/" style={{background:"black"}}>
+                      <a
+                        class="instgram"
+                        href="https://www.instagram.com/mervenne_/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
@@ -347,7 +425,7 @@ const Home = () => {
                   alignItems: "center",
                   padding: "10px",
                   boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                  borderRadius:"10px"
+                  borderRadius: "10px",
                 }}
               >
                 <img
@@ -363,24 +441,40 @@ const Home = () => {
                 <div class="card-body">
                   <h5 class="card-title">Sümeyye Gümüş</h5>
                   <p class="card-text">Cyber Security</p>
-                  <ul class="social-icons" >
-                    <li >
-                      <a class="twitter" href="/" style={{background:"black"}}>
-                        <i class="fa fa-twitter" ></i>
+                  <ul class="social-icons">
+                    <li>
+                      <a
+                        class="twitter"
+                        href="/"
+                        style={{ background: "black" }}
+                      >
+                        <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://www.linkedin.com/in/merve-civan-1a21bb233" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://www.linkedin.com/in/merve-civan-1a21bb233"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://github.com/sumeyyegms/sumeyyegms" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://github.com/sumeyyegms/sumeyyegms"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a class="linkedin" href="https://www.instagram.com/sumeyyegmus/" style={{background:"black"}}>
+                      <a
+                        class="linkedin"
+                        href="https://www.instagram.com/sumeyyegmus/"
+                        style={{ background: "black" }}
+                      >
                         <i class="fa fa-instagram"></i>
                       </a>
                     </li>
@@ -398,7 +492,7 @@ const Home = () => {
             justifyContent: "center",
             marginTop: "40px",
           }}
-          className="container"
+          className=""
         >
           <div
             style={{
@@ -407,7 +501,7 @@ const Home = () => {
               borderBottom: "1px solid black",
               height: "2px",
             }}
-            className="container"
+            className=""
           />
           <span
             style={{
@@ -428,7 +522,7 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="img-grid container" style={{marginTop:"80px"}}>
+        <div className="img-grid " style={{ marginTop: "80px" }}>
           <motion.div className="img-wrap" layout whileHover={{ opacity: 1 }}>
             <motion.img
               src={ders1}
@@ -460,7 +554,7 @@ const Home = () => {
             />
           </motion.div>
         </div>
-        <div className="img-grid container" style={{marginBottom:"80px"}}>
+        <div className="img-grid " style={{ marginBottom: "80px" }}>
           <motion.div className="img-wrap" layout whileHover={{ opacity: 1 }}>
             <motion.img
               src={ders1}
