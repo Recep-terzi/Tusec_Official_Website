@@ -11,8 +11,21 @@ const Project = () => {
   const textRef = useRef();
   const textRef2= useRef();
   const textRef3= useRef();
+  const textRef4= useRef();
   useEffect(() => {
-    init(textRef3.current, {
+    init(textRef4.current, {
+      showCursor: true,
+      backDelay: 1500,
+      startDelay: 100,
+      cursorChar:"┃",
+      disableBackTyping:true,
+      typeSpeed: 50,
+      strings: ["#!/bin/bash"],
+    })
+    
+  }, []);
+  useEffect(() => {
+    setTimeout(() => {init(textRef3.current, {
       showCursor: true,
       backDelay: 1500,
       startDelay: 100,
@@ -20,7 +33,7 @@ const Project = () => {
       disableBackTyping:true,
       typeSpeed: 50,
       strings: [" ──(root㉿kali)-[/home/kali] └─ "],
-    })
+    })},3000)
     
   }, []);
   useEffect(() => {
@@ -32,7 +45,7 @@ const Project = () => {
       disableBackTyping:true,
       typeSpeed: 50,
       strings: ["# TUSEC'e Hoşgeldiniz. Biz Kimiz ?"],
-    });},3000)
+    });},6000)
   }, []);
  
   useEffect(() => {
@@ -44,7 +57,7 @@ const Project = () => {
       disableBackTyping:true,
       typeSpeed: 50,
       strings: ["TUSEC'in amacı başta Bilişim Sistemleri ve Teknolojisi öğrencileri olmak üzere tüm KYÇUBYO öğrencilerini güncel teknolojileri siber uzayı hakkında temelden ileri düzeye doğru Siber Güvenlik eğitimleri, panelleri, konferansları, workshopları, bootcamplerive staj imkanları gibi faaliyetler ve imkanlar sağlamaktadır.Hızla gelişen teknoloji dünyasında siber ihtiyaçta artmaktadır bu bağlamda siber kültür ve genel siber güvenlik eğitimleri ve gereksinimleri kümelenme üyelerine temelden en doğru şekilde aşılamayı hedeflemektedir. Cumhur Başkanlığı Savunma Sanayi Bakanlığı, Dijital Dönüşüm Ofisi Bakanlığı himayesi altında kuracağımız TUSEC öğrenci topluluğu Türkiye Siber Güvenlik Kümelenmesi paydaşı olması hem okulumuz bünyesinde hem de Üniversite bünyesinde staj ve eğitim imkanları sağlamaktadır."],
-    });},8000)
+    });},10000)
     
   }, []);
 
@@ -79,7 +92,7 @@ const Project = () => {
             <li style={{color:"white",marginRight:"10px"}}>Cyber Security</li>
           </ul>
           <p>
-           <span ref={textRef3}></span><br /> <span style={{marginLeft:"40px"}} ref={textRef}></span> <br /> <span style={{marginLeft:"40px"}} ref={textRef2}></span>
+           <span ref={textRef4}></span><br/><span ref={textRef3}></span><br /> <span style={{marginLeft:"40px"}} ref={textRef}></span> <br /> <span style={{marginLeft:"40px"}} ref={textRef2}></span>
           </p>
           <div>
           <div className="row">

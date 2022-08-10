@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import Loading from "./components/Loading/Loading";
 import NotFound from "./components/NotFound/NotFound";
 import CalendarPage from "./components/CalendarPage/CalendarPage";
+import Projects from "./components/Projects/Projects";
 
 function App({ type, color }) {
   const [loading, setLoading] = useState(false);
@@ -29,7 +30,7 @@ function App({ type, color }) {
             <Route path="/" element={<Home />}></Route>
             <Route path="*" element={<NotFound />}></Route>
             <Route path="/calendar" element={<CalendarPage />}></Route>
-            <Route path="/projects" element={<Project />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
             <Route path="/contact" element={<Contact />} type={type} color={color}></Route>
           </Routes>
           <Footer />
