@@ -7,9 +7,7 @@ const Footer = () => {
       <div className="row">
         <div className="col-sm-12 col-md-6">
           <h6>Hakkımızda</h6>
-          <p className="text-justify"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, voluptatibus?
-           Reiciendis facilis assumenda quae ad neque aspernatur ratione tempore temporibus eius placeat vero, similique
-            a corrupti incidunt blanditiis consectetur doloribus! </p></div>
+          <p className="text-justify"> Trakya Üniversitesi Security Keşan Yusuf Çapraz Uygulamalı Bilimler Yüksekokulu bünyesinde kurulmuş bir klüptür </p></div>
 
        
 

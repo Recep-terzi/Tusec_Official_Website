@@ -134,7 +134,7 @@
       color:white;
     }
     .nav-menu.active {
-      background: black;
+      background: rgb(228, 224, 224);
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
@@ -148,7 +148,7 @@
       padding: 1.5rem;
       width: 100%;
       display: table;
-      color:white;
+      color:black;
     }
   
     .nav-icon {
