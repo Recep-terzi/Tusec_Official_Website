@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.Module.css";
 import { motion } from "framer-motion";
-import tusec from "../../assets/tusec4.png";
+import tusec from "../../assets/tusec2-removebg-preview.png";
 import tusec2 from "../../assets/tusec2.png";
 import ders1 from "../../assets/ders1.jpeg";
 import ders2 from "../../assets/ders2.jpeg";
@@ -13,12 +13,10 @@ import ramazan from "../../assets/ramazan.jpg";
 import merve from "../../assets/merve.jpg";
 import sümeyye from "../../assets/sümeyye.jpg";
 import Project from "../Project/Project";
-
 const Home = () => {
   return (
     <>
-      <div className="container">
-        <div
+      <div className="bg-img" style={{height: '1080px'}}><div
           style={{
             marginTop: "30px",
             marginBottom: "50px",
@@ -28,7 +26,10 @@ const Home = () => {
           className=""
         >
           <img src={tusec} className="tusec-img" alt=""></img>
-        </div>
+          <p style={{fontSize:"40px",fontWeight:"bold",marginTop:"-230px"}}>TRAKYA UNİVERSİTY SECURİTY</p>
+        </div></div>
+      <div className="container">
+        
         <div className="metin-row">
           <Project />
         </div>
@@ -102,7 +103,6 @@ const Home = () => {
                   <h5 class="card-title">Seyit Yusuf Baş</h5>
                   <p class="card-text">Cyber Security </p>
                   <ul class="social-icons">
-                   
                     <li>
                       <a
                         class="linkedin"
@@ -112,7 +112,7 @@ const Home = () => {
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
-                   
+
                     <li>
                       <a
                         class="github"
@@ -153,7 +153,6 @@ const Home = () => {
                   <h5 class="card-title">M. Furkan Saydam</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                    
                     <li>
                       <a
                         class="linkedin"
@@ -172,7 +171,6 @@ const Home = () => {
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
-                   
                   </ul>
                 </div>
               </div>
@@ -204,7 +202,6 @@ const Home = () => {
                   <h5 class="card-title">Deniz</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                   
                     <li>
                       <a
                         class="linkedin"
@@ -214,7 +211,7 @@ const Home = () => {
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
-                    
+
                     <li>
                       <a
                         class="github"
@@ -255,7 +252,6 @@ const Home = () => {
                   <h5 class="card-title">Ramazan</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                   
                     <li>
                       <a
                         class="linkedin"
@@ -274,7 +270,6 @@ const Home = () => {
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
-                   
                   </ul>
                 </div>
               </div>
@@ -311,7 +306,6 @@ const Home = () => {
                   <h5 class="card-title">Merve Civan</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                   
                     <li>
                       <a
                         class="linkedin"
@@ -330,7 +324,6 @@ const Home = () => {
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
-                   
                   </ul>
                 </div>
               </div>
@@ -362,7 +355,6 @@ const Home = () => {
                   <h5 class="card-title">Sümeyye Gümüş</h5>
                   <p class="card-text">Cyber Security</p>
                   <ul class="social-icons">
-                   
                     <li>
                       <a
                         class="linkedin"
@@ -381,7 +373,6 @@ const Home = () => {
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
-                    
                   </ul>
                 </div>
               </div>

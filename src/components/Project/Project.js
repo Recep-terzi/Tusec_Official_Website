@@ -6,6 +6,7 @@ import DevicesIcon from '@mui/icons-material/Devices';
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
 import CropSquareIcon from '@mui/icons-material/CropSquare';
 import CloseIcon from '@mui/icons-material/Close';
+import tusecsvg from '../../assets/tusec2-removebg-preview.svg'
 import { init } from "ityped";
 const Project = () => {
   const textRef = useRef();
@@ -67,7 +68,8 @@ const Project = () => {
       <div className=" metin-row">
         <div style={{backgroundColor:"#E4E0E0",height:"30px",display:"flex", textAlign:"center", listStyle:"none",justifyContent:"space-between"}}>
         <div style={{marginLeft:"30px"}}>
-        <DevicesIcon sx={{mr:1}} /> <span style={{fontWeight:"bold"}}> root@TUSEC:~</span>
+        <img src={tusecsvg} style={{height:"30px",width:"30px"}} alt="/"></img>
+        <span style={{fontWeight:"bold"}}> root@TUSEC:~</span>
           </div>
           <div style={{display:"flex",alignItems:"center",textAlign:"center",justifyContent:"end"}}>
             <ul style={{display:"flex",textAlign:"center",listStyle:"none",marginTop:"7px"}}>

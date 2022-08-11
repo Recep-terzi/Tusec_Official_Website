@@ -118,3 +118,6 @@
 .icon-hover :hover{
   cursor: pointer;
 }
+.bg-img{
+  background-image: url("../../assets/bg.jpg");
+}
