@@ -119,7 +119,14 @@
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
 }
-
+.haber-aciklama{
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
 @media screen and (max-width: 768px) {
   .populer-haberler {
     display: none;

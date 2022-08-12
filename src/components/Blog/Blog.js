@@ -1,110 +1,66 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./Blog.Module.css";
 import tusec from "../../assets/tusec.png";
+import {
+  collection,
+  getDocs,
+} from "firebase/firestore";
+import { db } from "../../firebase/config";
+import {Link} from "react-router-dom"
 const Blog = () => {
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+    const ref = collection(db, "blog");
+    getDocs(ref).then((snap) => {
+      let result = [];
+
+      snap.forEach((doc) => {
+        result.push({
+          ...doc.data(),
+          id: doc.id
+        });
+      });
+
+      setBlogs(result);
+    });
+  }, []);
+  console.log(blogs)
   return (
     <div className="container blog-container">
       <div className="row">
         <div className="col-md-8">
-          <div className=" haber-row">
+          {
+            blogs.map(blog => (
+              <>
+                <div className=" haber-row">
             <div className="">
               <img
                 src={
-                  "https://i0.wp.com/shiftdelete.net/wp-content/uploads/2022/08/Google-Pixel-6a-inceleme.jpeg?resize=640%2C360&ssl=1"
+                  blog.image
                 }
                 className="haber-image"
                 alt=""
-              ></img>
+              >
+              </img>
             </div>
             <div className=" haber-col">
               <ul>
                 <p className="tusec-text">TUSEC</p>
               </ul>
-              <h4 className="haber-baslik"><a href="/" >Haber Başlık</a></h4>
+              <h4 className="haber-baslik"><Link to={`/blogdetail/${blog.id}`} >{blog.title}</Link></h4>
               <p className="haber-aciklama">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio, reprehenderit. Amet fuga aliquid magnam suscipit
-                consectetur quibusdam praesentium, nulla beatae!
+                {blog.aciklama}
               </p>
               <p className="yazar">
-                writing by Recep.
+                writing by {blog.yazar}.
               </p>
             </div>
           </div>
-          <div className="haber-row">
-            <div className="">
-              <img
-                src={
-                  "https://i0.wp.com/shiftdelete.net/wp-content/uploads/2022/08/Google-Pixel-6a-inceleme.jpeg?resize=640%2C360&ssl=1"
-                }
-                className="haber-image"
-                alt=""
-              ></img>
-            </div>
-            <div className=" haber-col">
-              <ul>
-                <p className="tusec-text">TUSEC</p>
-              </ul>
-              <h4 className="haber-baslik"><a href="/" >Haber Başlık</a></h4>
-              <p className="haber-aciklama">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                eaque vitae porro nihil consectetur at voluptatibus officiis
-                voluptatem, consequuntur modi.
-              </p>
-              <p className="yazar">
-                writing by Recep.
-              </p>
-            </div>
-          </div><div className="haber-row">
-            <div className="">
-              <img
-                src={
-                  "https://i0.wp.com/shiftdelete.net/wp-content/uploads/2022/08/Google-Pixel-6a-inceleme.jpeg?resize=640%2C360&ssl=1"
-                }
-                className="haber-image"
-                alt=""
-              ></img>
-            </div>
-            <div className=" haber-col">
-              <ul>
-                <p className="tusec-text">TUSEC</p>
-              </ul>
-              <h4 className="haber-baslik"><a href="/" >Haber Başlık</a></h4>
-              <p className="haber-aciklama">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                eaque vitae porro nihil consectetur at voluptatibus officiis
-                voluptatem, consequuntur modi.
-              </p>
-              <p className="yazar">
-                writing by Recep.
-              </p>
-            </div>
-          </div><div className="haber-row">
-            <div className="">
-              <img
-                src={
-                  "https://i0.wp.com/shiftdelete.net/wp-content/uploads/2022/08/Google-Pixel-6a-inceleme.jpeg?resize=640%2C360&ssl=1"
-                }
-                className="haber-image"
-                alt=""
-              ></img>
-            </div>
-            <div className=" haber-col">
-              <ul>
-                <p className="tusec-text">TUSEC</p>
-              </ul>
-              <h4 className="haber-baslik"><a href="/" >Haber Başlık</a></h4>
-              <p className="haber-aciklama">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                eaque vitae porro nihil consectetur at voluptatibus officiis
-                voluptatem, consequuntur modi.
-              </p>
-              <p className="yazar">
-                writing by Recep.
-              </p>
-            </div>
+              </>
+            ))
+          }
+          
           </div>
-        </div>
         <div className="col-md-4 populer-haberler">
           <p className="populer-text">POPÜLER HABERLER</p>
           <ul className="haber-list">

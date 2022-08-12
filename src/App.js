@@ -10,6 +10,7 @@ import NotFound from "./components/NotFound/NotFound";
 import CalendarPage from "./components/CalendarPage/CalendarPage";
 import Projects from "./components/Projects/Projects";
 import Blog from "./components/Blog/Blog";
+import BlogDetail from "./components/BlogDetail/BlogDetail";
 
 function App({ type, color }) {
   const [loading, setLoading] = useState(false);
@@ -32,6 +33,7 @@ function App({ type, color }) {
             <Route path="*" element={<NotFound />}></Route>
             <Route path="/calendar" element={<CalendarPage />}></Route>
             <Route path="/blog" element={<Blog />}></Route>
+            <Route path="/blogdetail/:id" element={<BlogDetail />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/contact" element={<Contact />} type={type} color={color}></Route>
           </Routes>
