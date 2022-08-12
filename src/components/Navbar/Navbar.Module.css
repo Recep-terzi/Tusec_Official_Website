@@ -113,7 +113,16 @@
   .nav-icon {
     display: none;
   }
-  
+  .haber-etiketleri h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1b1c1d;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    position: relative;
+   
+  }
   @media screen and (max-width: 960px) {
     
     .nav-menu {
@@ -140,6 +149,11 @@
       transition: all 0.5s ease;
       z-index: 1;
     }
+    .nav-item:first-child{
+      border-top: 1px solid black;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
     .nav-item .active {
       color:red;
       border: none;
@@ -154,7 +168,7 @@
     .nav-icon {
       display: block;
       position: absolute;
-      top: 0;
+      top: -6px;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

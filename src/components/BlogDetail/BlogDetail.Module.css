@@ -14,7 +14,6 @@
 .content-div .content-img {
   width: 200px;
   height: 200px;
-  
 }
 .populer-text {
   font-size: 20px;
@@ -70,65 +69,71 @@
   margin-left: 30px;
   padding-right: 25px;
 }
-.content-div{
-    margin-top: 30px;
-
+.content-div {
+  margin-top: 30px;
 }
-.content-div .sol-icon{
-    text-align: center;
-
+.content-div .sol-icon {
+  text-align: center;
 }
-.aciklama{
-    display: block;
-    align-items: center;
-    justify-content: center;
+.aciklama {
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
-.aciklama h1{
-    border-bottom: 3px solid #121212;
-    text-align: center;
+.aciklama h1 {
+  border-bottom: 3px solid #121212;
+  text-align: center;
 }
-.aciklama p{
-    margin-top: 20px;
+.aciklama p {
+  margin-top: 20px;
 }
-.haber-etiketleri{
-    background: #E4E0E0;
-    border-radius: 10px;
-    padding: 35px;
-    display: block;
-
+.haber-etiketleri {
+  background: #e4e0e0;
+  border-radius: 10px;
+  padding: 35px;
+  display: block;
 }
-.haber-etiketleri h3{
-    border-bottom: 3px solid #121212;
+.aciklama h1 {
+  font-weight: 600;
+  color: #1b1c1d;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
 }
-.haber-etiketleri ul{
-    list-style: outside;
-    line-height: 3rem;
+.haber-etiketleri h3 {
+  border-bottom: 3px solid #121212;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1b1c1d;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+.haber-etiketleri ul {
+  list-style: outside;
+  line-height: 3rem;
 }
 .haber-etiketleri ul li {
-    margin-bottom: 10px;
-    border-radius: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
-.haber-etiketleri ul li span{
-    color: white;
-    background: black;
-    padding:6px;
-    border-radius: 10px;
+.haber-etiketleri ul li span {
+  color: white;
+  background: black;
+  padding: 6px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
-    .populer-haberler{
-        display: none;
-    }
-    .haber-etiketleri{
-        margin-top: 30px;
-        display: block;
-    }
-    .aciklama{
-        margin-top: 30px;
-    }
-    .detail-container{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    
-   
+  .populer-haberler {
+    display: none;
+  }
+  .haber-etiketleri {
+    margin-top: 30px;
+    display: block;
+  }
+  .aciklama {
+    margin-top: 30px;
+  }
+  .detail-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
