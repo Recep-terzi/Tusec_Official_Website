@@ -58,7 +58,7 @@ const CalendarPage = () => {
         />
       )}
       {loading && (
-        <div className="container" style={{ marginTop: "100px" }}>
+        <div className="container" style={{ marginTop: "100px",marginBottom: "100px" }}>
           <div
             style={{
               display: "flex",
@@ -101,7 +101,7 @@ const CalendarPage = () => {
             events={documents}
             startAccessor="start"
             endAccessor="end"
-            style={{ height: 500, margin: "50px" }}
+            style={{ height: 550 }}
           />
         </div>
       )}

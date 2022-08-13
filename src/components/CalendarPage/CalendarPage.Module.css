@@ -6,6 +6,7 @@
 .rbc-event{
     background: #8b8787;
 }
+
 .rbc-selected{
     background: #8b8787;
 }
@@ -21,6 +22,13 @@
 @media screen and (max-width: 760px){
     .calendar-div{
         display: grid;
+    }
+    .rbc-toolbar-label{
+        position: absolute;
+    }
+    .rbc-btn-group{
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
     
 }
