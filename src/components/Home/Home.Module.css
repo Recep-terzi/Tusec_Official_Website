@@ -28,7 +28,6 @@
   color: white;
   background-color: #000;
   text-align: center;
-  background-image: url();
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -77,19 +76,31 @@
 }
 .tirtik p {
   padding: 150px;
-  padding-top: 155px;
-  padding-bottom: 155px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   font-size: 20px;
   text-align: justify;
 }
 .tirtik2 p{
   font-family: 'Roboto Mono', monospace;
 }
-@media screen and (max-width: 414px) {
+.tusec-img-text{
+  font-size: 40px ;
+  font-weight: bold;
+  margin-top: -230px;
+}
+.bg-img{
+  height: 1080px;
+}
+@media screen and (max-width: 480px) {
   .tusec-img {
     width: 380px;
     margin-left: -10px;
     height: 400px;
+  }
+  .bg-img{
+    margin-top: -30px;
+    height: 680px;
   }
   .tusec-img-2 {
     margin-left: -25px;
@@ -114,10 +125,18 @@
     font-size: 15px;
     padding: 40px;
   }
+  .tusec-img-text{
+    font-size: 15px;
+    margin-top: -200px;
+  }
+}
+@media screen and (max-width: 1023px){
+  
 }
 .icon-hover :hover{
   cursor: pointer;
 }
 .bg-img{
-  background-image: url("../../assets/bg.jpg");
+  background-image: url('../../assets/bg.jpg');
+
 }

@@ -6,3 +6,27 @@
     background-repeat: no-repeat;
     background-position: center;   
 }
+.ml-ref-text{
+    margin-left: 40px;
+}
+.pencere-left-text{
+    color:white;
+}
+.pencere-left-last-text{
+    margin-right: 10px;
+}
+@media screen and (max-width:414px){
+    .pencere-alt{
+        display: none;
+    }
+    .ref-text{
+        font-size: 12px;
+    }
+    .metin-row{
+        padding: 0;
+    }
+    .pencere-left-text{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+}

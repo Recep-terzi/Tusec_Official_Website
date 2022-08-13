@@ -34,10 +34,12 @@ const Footer = () => {
 
         <div className="col-md-4 col-sm-6 col-xs-12">
           <ul className="social-icons">
-            <li><a className="twitter" href="/"><i className="fa fa-twitter"></i></a></li>
-            <li><a className="linkedin" href="/"><i className="fa fa-linkedin"></i></a></li>
-            <li><a className="linkedin" href="/"><i className="fa fa-youtube"></i></a></li>  
-            <li><a className="linkedin" href="/"><i className="fa fa-instagram"></i></a></li>     
+            <li><a className="twitter" href="https://twitter.com/tusec22?t=dc3leR2l4q7YVBfnXBR6kg&s=08"><i className="fa fa-twitter"></i></a></li>
+            <li><a className="linkedin" href="https://www.linkedin.com/company/tusec/"><i className="fa fa-linkedin"></i></a></li>
+            <li><a className="linkedin" href="https://www.youtube.com/channel/UC1iSsloM93pY8jCorCaybgg/featured"><i className="fa fa-youtube"></i></a></li>  
+            <li><a className="linkedin" href="https://www.instagram.com/tusec22/"><i className="fa fa-instagram"></i></a></li>     
+            <li><a className="linkedin" href="https://www.facebook.com/TUSEC-109724181836694"><i className="fa fa-facebook"></i></a></li> 
+            <li><a className="linkedin" href="https://www.twitch.tv/tusec22"><i className="fa fa-twitch"></i></a></li> 
           </ul>
         </div>
       </div>

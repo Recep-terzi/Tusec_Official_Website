@@ -19,12 +19,13 @@ const Navbar = () => {
       strings: ["Welcome to", "TUSEC", ":)"],
     });
   }, []);
+  let activeClassName = "active"
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink  to="/" className="nav-logo">
             <img
               src={tusec}
               alt=""
@@ -47,10 +48,8 @@ const Navbar = () => {
             
             <li className="nav-item">
               <NavLink
-                exact
                 to="/projects"
-                activeClassName="active"
-                className="nav-links"
+                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
                 onClick={click ? handleClick : null}
               >
                 Projeler
@@ -58,10 +57,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
                 to="/blog"
-                activeClassName="active"
-                className="nav-links"
+                 
+                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
                 onClick={click ? handleClick : null}
               >
                 Blog
@@ -69,10 +67,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
                 to="/calendar"
-                activeClassName="active"
-                className="nav-links"
+                 
+                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
                 onClick={click ? handleClick : null}
               >
                 Takvim
@@ -80,10 +77,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
                 to="/contact"
-                activeClassName="active"
-                className="nav-links"
+                 
+                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
                 onClick={click ? handleClick : null}
               >
                 İletişim

@@ -3,6 +3,21 @@
     margin-top: 40px;
     justify-content: space-evenly;
 }
+.rbc-event{
+    background: #8b8787;
+}
+.rbc-selected{
+    background: #8b8787;
+}
+.rbc-event.rbc-selected{
+    background: #8b8787;
+}
+.rbc-event:hover{
+    background-color: black;
+}
+.rbc-event-allday{
+    background: #8b8787;
+}
 @media screen and (max-width: 760px){
     .calendar-div{
         display: grid;

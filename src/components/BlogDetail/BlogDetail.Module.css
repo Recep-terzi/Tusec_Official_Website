@@ -1,11 +1,14 @@
 .baslik-div h1 {
   font-size: 50px;
   margin-bottom: 40px;
-  color: black;
   width: 1000px;
   border-radius: 10px;
   margin-left: -10px;
   padding: 10px;
+  font-weight: 600;
+  color: #1b1c1d;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
 }
 .image-div img {
   width: 100%;
@@ -54,8 +57,8 @@
   transition: width 0.7s ease, background-color 0.5s ease;
 }
 .detail-container {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 .populer-text {
   font-size: 20px;
