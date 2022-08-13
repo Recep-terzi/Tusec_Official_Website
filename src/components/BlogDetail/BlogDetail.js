@@ -114,10 +114,10 @@ const BlogDetail = () => {
               </div>
               <div className="content-div">
                 <div className="row">
-                  <div className="col-md-2 sol-icon">
+                  {/* <div className="col-md-2 sol-icon">
                     <img src={tusec} alt="" className="content-img" />
                     <p className="yazar">writing by {blogs.yazar}</p>
-                  </div>
+                  </div> */}
                   <div className="col-md-7 aciklama">
                     <h1>Haber Açıklamaları</h1>
                     <p>{blogs.aciklama}</p>
