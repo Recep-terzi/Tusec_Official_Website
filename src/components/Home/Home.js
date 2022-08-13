@@ -94,7 +94,7 @@ const Home = () => {
         </div>
         <div className="">
           <div
-            className="row "
+            className="row tusec-kisiler"
             style={{ marginTop: "80px", marginBottom: "80px" }}
           >
             <div className="col-md-3">
