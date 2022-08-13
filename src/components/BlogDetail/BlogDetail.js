@@ -118,7 +118,7 @@ const BlogDetail = () => {
                     <img src={tusec} alt="" className="content-img" />
                     <p className="yazar">writing by {blogs.yazar}</p>
                   </div> */}
-                  <div className="col-md-7 aciklama">
+                  <div className="col-md-9 aciklama">
                     <h1>Haber Açıklamaları</h1>
                     <p>{blogs.aciklama}</p>
                   </div>
