@@ -97,7 +97,7 @@ const Home = () => {
             className="row tusec-kisiler"
             style={{ marginTop: "80px", marginBottom: "80px" }}
           >
-            <div className="col-md-3">
+            <div className="col-3">
               <div
                 className="card"
                 style={{
@@ -147,7 +147,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
               <div
                 className="card"
                 style={{
@@ -196,7 +196,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
               <div
                 className="card"
                 style={{
@@ -246,7 +246,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-3">
               <div
                 className="card"
                 style={{

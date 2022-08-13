@@ -1,13 +1,12 @@
 import { Grid,Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
-import {useNavigate} from "react-router-dom"
 const NotFound = () => {
     const [error,setError] = useState(false)
-    const navigate = useNavigate()
+
     useEffect(() => {
+      
         setTimeout(() => {
             setError(true)
-            navigate('/')
         },2000)
     },[error])
   return (
