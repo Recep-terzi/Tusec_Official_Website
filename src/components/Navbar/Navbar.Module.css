@@ -112,7 +112,11 @@ body {
   text-decoration: none;
   line-height: 40px;
   padding: 0.5rem 1rem;
-  font-weight: 550;
+  color:black;
+  font-weight: 750;
+}
+.active:hover{
+  color: black;
 }
 .nav-icon {
   display: none;
@@ -155,7 +159,7 @@ body {
     border-top-left-radius: 5px;
   }
   .nav-item .active {
-    color: red;
+    color: black;
     border: none;
   }
   .nav-links {
