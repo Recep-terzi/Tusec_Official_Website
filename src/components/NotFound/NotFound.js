@@ -2,9 +2,7 @@ import { Grid,Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 const NotFound = () => {
     const [error,setError] = useState(false)
-
     useEffect(() => {
-      
         setTimeout(() => {
             setError(true)
         },2000)
