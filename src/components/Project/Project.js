@@ -1,8 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, {  useRef, useEffect } from "react";
 import "../Home/Home.Module.css";
 import "../Project/Project.Module.css";
-import floot from "../../assets/floot.jpg";
-import DevicesIcon from "@mui/icons-material/Devices";
 import HorizontalRuleIcon from "@mui/icons-material/HorizontalRule";
 import CropSquareIcon from "@mui/icons-material/CropSquare";
 import CloseIcon from "@mui/icons-material/Close";

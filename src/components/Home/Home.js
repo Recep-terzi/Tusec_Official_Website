@@ -95,7 +95,7 @@ const Home = () => {
         <div className="">
           <div
             className="row "
-            style={{ marginTop: "80px", marginBottom: "80px" }}
+            style={{ marginTop: "80px", marginBottom: "80px",display:"flex" }}
           >
             <div className="col-md-3">
               <div
