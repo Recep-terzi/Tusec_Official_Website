@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import tusec2 from "../../assets/tusec2.png";
 import "./Contact.Module.css";
-import { TextField, Typography, Button } from "@mui/material";
+import { TextField, Button } from "@mui/material";
 import Loading from "../Loading/Loading";
 import emailjs from "emailjs-com";
 const Contact = ({ type, color }) => {

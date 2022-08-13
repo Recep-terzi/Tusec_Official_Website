@@ -94,8 +94,8 @@ const Home = () => {
         </div>
         <div className="">
           <div
-            className="row "
-            style={{ marginTop: "80px", marginBottom: "80px",display:"flex" }}
+            className="row tusec-kisiler"
+            style={{ marginTop: "80px", marginBottom: "80px" }}
           >
             <div className="col-md-3">
               <div

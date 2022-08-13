@@ -9,7 +9,7 @@ const NotFound = () => {
             setError(true)
             navigate('/')
         },2000)
-    },[])
+    },[error])
   return (
     <Grid
       container

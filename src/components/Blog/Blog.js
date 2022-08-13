@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Blog.Module.css";
-import tusec from "../../assets/tusec.png";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import { Link } from "react-router-dom";

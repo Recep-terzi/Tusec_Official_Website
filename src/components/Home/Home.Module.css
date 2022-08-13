@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
 .img-grid {
   margin: 20px auto;
   display: grid;
@@ -81,15 +81,15 @@
   font-size: 20px;
   text-align: justify;
 }
-.tirtik2 p{
-  font-family: 'Roboto Mono', monospace;
+.tirtik2 p {
+  font-family: "Roboto Mono", monospace;
 }
-.tusec-img-text{
-  font-size: 40px ;
+.tusec-img-text {
+  font-size: 40px;
   font-weight: bold;
   margin-top: -230px;
 }
-.bg-img{
+.bg-img {
   height: 1080px;
 }
 @media screen and (max-width: 480px) {
@@ -98,7 +98,7 @@
     margin-left: -10px;
     height: 400px;
   }
-  .bg-img{
+  .bg-img {
     margin-top: -30px;
     height: 680px;
   }
@@ -125,18 +125,24 @@
     font-size: 15px;
     padding: 40px;
   }
-  .tusec-img-text{
+  .tusec-img-text {
     font-size: 15px;
     margin-top: -200px;
   }
-}
-@media screen and (max-width: 1023px){
   
 }
-.icon-hover :hover{
+@media screen and (max-width: 1023px) {
+  .tusec-kisiler{
+  }
+}
+.icon-hover :hover {
   cursor: pointer;
 }
-.bg-img{
-  background-image: url('../../assets/bg.jpg');
+.bg-img {
+  background-image: url("../../assets/bg.jpg");
+}
 
+.tusec-kisiler {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
