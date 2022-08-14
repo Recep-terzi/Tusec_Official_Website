@@ -1,34 +1,55 @@
-.calendar-div{
-    display: flex;
-    margin-top: 40px;
-    justify-content: space-evenly;
+.calendar-div {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
 }
-.rbc-event{
-    background: #8b8787;
+.rbc-event {
+  background: #8b8787;
 }
 
-.rbc-selected{
-    background: #8b8787;
+.rbc-selected {
+  background: #8b8787;
 }
-.rbc-event.rbc-selected{
-    background: #8b8787;
+.rbc-event.rbc-selected {
+  background: #8b8787;
 }
-.rbc-event:hover{
-    background-color: black;
+.rbc-event:hover {
+  background-color: black;
 }
-.rbc-event-allday{
-    background: #8b8787;
+.rbc-event-allday {
+  background: #8b8787;
 }
-@media screen and (max-width: 760px){
-    .calendar-div{
-        display: grid;
-    }
-    .rbc-toolbar-label{
-        position: absolute;
-    }
-    .rbc-btn-group{
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-    
+@media screen and (max-width: 760px) {
+  .calendar-div {
+    display: grid;
+  }
+  .rbc-toolbar-label {
+    position: absolute;
+  }
+  .rbc-btn-group {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
+
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

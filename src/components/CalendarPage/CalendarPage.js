@@ -47,7 +47,10 @@ const CalendarPage = () => {
     }, 2000);
   }, []);
 
- 
+  const doubleClick = () => {
+    window.location.replace("https://kamp.siberkulupler.com");
+  };
+
   return (
     <>
       {!loading && (
@@ -103,10 +106,17 @@ const CalendarPage = () => {
             <Calendar
               localizer={localizer}
               events={documents}
+              onDoubleClickEvent={() => {
+                doubleClick();
+              }}
               startAccessor="start"
               endAccessor="end"
               style={{ height: 550 }}
             />
+          </div>
+          <div >
+            
+            
           </div>
         </div>
       )}
