@@ -18,7 +18,7 @@ const Project = () => {
       startDelay: 100,
       cursorChar: "┃",
       disableBackTyping: true,
-      typeSpeed: 50,
+      typeSpeed: 30,
       strings: ["#!/bin/bash"],
     });
   }, []);
@@ -30,7 +30,7 @@ const Project = () => {
         startDelay: 100,
         cursorChar: "┃",
         disableBackTyping: true,
-        typeSpeed: 50,
+        typeSpeed: 30,
         strings: [" ──(root㉿kali)-[/home/kali] └─ "],
       });
     }, 3000);
@@ -43,7 +43,7 @@ const Project = () => {
         startDelay: 100,
         cursorChar: "┃",
         disableBackTyping: true,
-        typeSpeed: 50,
+        typeSpeed: 30,
         strings: ["# TUSEC'e Hoşgeldiniz. Biz Kimiz ?"],
       });
     }, 6000);
@@ -57,7 +57,7 @@ const Project = () => {
         startDelay: 100,
         cursorChar: "┃",
         disableBackTyping: true,
-        typeSpeed: 50,
+        typeSpeed: 30,
         strings: [
           "TUSEC'in amacı başta Bilişim Sistemleri ve Teknolojisi öğrencileri olmak üzere tüm KYÇUBYO öğrencilerini güncel teknolojileri siber uzayı hakkında temelden ileri düzeye doğru Siber Güvenlik eğitimleri, panelleri, konferansları, workshopları, bootcamplerive staj imkanları gibi faaliyetler ve imkanlar sağlamaktadır.Hızla gelişen teknoloji dünyasında siber ihtiyaçta artmaktadır bu bağlamda siber kültür ve genel siber güvenlik eğitimleri ve gereksinimleri kümelenme üyelerine temelden en doğru şekilde aşılamayı hedeflemektedir. Cumhur Başkanlığı Savunma Sanayi Bakanlığı, Dijital Dönüşüm Ofisi Bakanlığı himayesi altında kuracağımız TUSEC öğrenci topluluğu Türkiye Siber Güvenlik Kümelenmesi paydaşı olması hem okulumuz bünyesinde hem de Üniversite bünyesinde staj ve eğitim imkanları sağlamaktadır.",
         ],

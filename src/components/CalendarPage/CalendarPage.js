@@ -10,6 +10,7 @@ import "./CalendarPage.Module.css";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import Loading from "../Loading/Loading";
+import { useNavigate } from "react-router-dom";
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
 };
@@ -25,6 +26,7 @@ const localizer = dateFnsLocalizer({
 const CalendarPage = () => {
   const [documents, setDocuments] = useState([]);
   const [loading, setLoading] = useState(false);
+  let navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
@@ -47,6 +49,7 @@ const CalendarPage = () => {
     }, 2000);
   }, []);
 
+ 
   return (
     <>
       {!loading && (
@@ -58,7 +61,10 @@ const CalendarPage = () => {
         />
       )}
       {loading && (
-        <div className="container" style={{ marginTop: "100px",marginBottom: "100px" }}>
+        <div
+          className="container"
+          style={{ marginTop: "100px", marginBottom: "100px" }}
+        >
           <div
             style={{
               display: "flex",
@@ -95,14 +101,15 @@ const CalendarPage = () => {
               }}
             />
           </div>
-
-          <Calendar
-            localizer={localizer}
-            events={documents}
-            startAccessor="start"
-            endAccessor="end"
-            style={{ height: 550 }}
-          />
+          <div>
+            <Calendar
+              localizer={localizer}
+              events={documents}
+              startAccessor="start"
+              endAccessor="end"
+              style={{ height: 550 }}
+            />
+          </div>
         </div>
       )}
     </>

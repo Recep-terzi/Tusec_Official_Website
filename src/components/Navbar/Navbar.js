@@ -46,15 +46,7 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
            
             
-            <li className="nav-item">
-              <NavLink
-                to="/projects"
-                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
-                onClick={click ? handleClick : null}
-              >
-                Projeler
-              </NavLink>
-            </li>
+           
             <li className="nav-item">
               <NavLink
                 to="/blog"

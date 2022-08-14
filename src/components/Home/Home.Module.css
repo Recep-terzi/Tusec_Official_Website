@@ -6,7 +6,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
+  margin-top: 80px;
 }
+
 .img-wrap {
   overflow: hidden;
   height: 0;
@@ -14,6 +16,9 @@
   position: relative;
   opacity: 0.8;
   margin-bottom: 40px;
+}
+.motion-img{
+  border-radius: 10px;
 }
 .img-wrap img {
   min-width: 100%;
@@ -132,8 +137,7 @@
   
 }
 @media screen and (max-width: 1023px) {
-  .tusec-kisiler{
-  }
+  
 }
 .icon-hover :hover {
   cursor: pointer;
