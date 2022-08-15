@@ -7,12 +7,10 @@ import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "./CalendarPage.Module.css";
-import { collection, getDocs, doc, getDoc } from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/config";
-import { useParams } from "react-router-dom";
 import Loading from "../Loading/Loading";
 import "alertifyjs/build/css/alertify.css";
-import alertify from "alertifyjs";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
@@ -29,8 +27,6 @@ const localizer = dateFnsLocalizer({
 const CalendarPage = () => {
   const [documents, setDocuments] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [hrefLink, setHrefLink] = useState(null);
-  const { id } = useParams();
 
   
   useEffect(() => {
