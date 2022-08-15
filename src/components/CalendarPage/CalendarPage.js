@@ -7,9 +7,11 @@ import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "./CalendarPage.Module.css";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs,doc, getDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import Loading from "../Loading/Loading";
+import 'alertifyjs/build/css/alertify.css';
+import alertify from 'alertifyjs';
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
 };
@@ -25,13 +27,14 @@ const localizer = dateFnsLocalizer({
 const CalendarPage = () => {
   const [documents, setDocuments] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [hrefLink,setHrefLink] = useState(null)
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
       const ref = collection(db, "calendar");
       getDocs(ref).then((snap) => {
         let result = [];
-
+       
         snap.forEach((doc) => {
           result.push({
             ...doc.data(),
@@ -47,8 +50,25 @@ const CalendarPage = () => {
     }, 2000);
   }, []);
 
-  const doubleClick = () => {
-    window.location.replace("https://kamp.siberkulupler.com");
+
+  
+
+
+  const doubleClick = ({id}) => {
+    const ref = doc(db, "calendar", id);
+    getDoc(ref).then((snap) => {
+      if (snap.exists) {
+        setHrefLink(snap.data());
+      } else {
+        console.log("error");
+      }
+    });
+   
+    alertify.alert('TUSEC Program Rehberi', ` Daha detaylı bilgiye ulaşmak için lütfen ilgili programa bir kere daha double click yapınız. `, function(){ alertify.success('Double Click Yapınız.'); });
+
+    window.location.replace(hrefLink.link)
+    console.log(hrefLink)
+    console.log(id)
   };
 
   return (
@@ -106,8 +126,9 @@ const CalendarPage = () => {
             <Calendar
               localizer={localizer}
               events={documents}
-              onDoubleClickEvent={() => {
-                doubleClick();
+              id={documents.id}
+              onDoubleClickEvent={({id}) => {
+                doubleClick({id});
               }}
               startAccessor="start"
               endAccessor="end"
