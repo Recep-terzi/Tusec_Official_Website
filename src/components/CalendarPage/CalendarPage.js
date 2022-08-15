@@ -71,7 +71,6 @@ const doubleClick = ( {id} ) => {
         alertify.success("Double Click Yapınız.");
       }
     );
-    hrefLink.unsubscribe();
     console.log(hrefLink);
   };
   useEffect(() => {
