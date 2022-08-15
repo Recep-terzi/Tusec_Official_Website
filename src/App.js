@@ -9,7 +9,7 @@ import NotFound from "./components/NotFound/NotFound";
 import CalendarPage from "./components/CalendarPage/CalendarPage";
 import Blog from "./components/Blog/Blog";
 import BlogDetail from "./components/BlogDetail/BlogDetail";
-
+import CalendarDetail from "./components/CalendarDetail/CalendarDetail";
 function App({ type, color }) {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -30,6 +30,7 @@ function App({ type, color }) {
             <Route path="/" element={<Home />}></Route>
             <Route path="*" element={<NotFound />}></Route>
             <Route path="/calendar" element={<CalendarPage />}></Route>
+            <Route path="/calendar/:id" element={<CalendarDetail />}></Route>
             <Route path="/blog" element={<Blog />}></Route>
             <Route path="/blogdetail/:id" element={<BlogDetail />}></Route>
             <Route path="/contact" element={<Contact />} type={type} color={color}></Route>

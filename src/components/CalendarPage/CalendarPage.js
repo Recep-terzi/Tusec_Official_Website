@@ -9,6 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import "./CalendarPage.Module.css";
 import { collection, getDocs, doc, getDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
+import { useParams } from "react-router-dom";
 import Loading from "../Loading/Loading";
 import "alertifyjs/build/css/alertify.css";
 import alertify from "alertifyjs";
@@ -29,6 +30,9 @@ const CalendarPage = () => {
   const [documents, setDocuments] = useState([]);
   const [loading, setLoading] = useState(false);
   const [hrefLink, setHrefLink] = useState(null);
+  const { id } = useParams();
+
+  
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
@@ -51,33 +55,29 @@ const CalendarPage = () => {
     }, 2000);
   }, []);
 
+  // const doubleClick = ({ id }) => {
+  //   const ref = doc(db, "calendar", id);
+  //   getDoc(ref).then((snap) => {
+  //     if (snap.exists) {
+  //       setHrefLink(snap.data());
 
-const doubleClick = ( {id} ) => {
-   
-      const ref = doc(db, "calendar", id);
-      getDoc(ref).then((snap) => {
-        if (snap.exists) {
-          setHrefLink(snap.data());
-        } else {
-          console.log("error");
-        }
-      });
-      
-   
-    alertify.alert(
-      "TUSEC Program Rehberi",
-      ` Daha detaylı bilgiye ulaşmak için lütfen ilgili programa bir kere daha double click yapınız. `,
-      function () {
-        alertify.success("Double Click Yapınız.");
-      }
-    );
-    console.log(hrefLink);
-  };
-  useEffect(() => {
+  //     } else {
+  //       console.log("error");
+  //     }
+  //   });
+
+  //   alertify.alert(
+  //     "TUSEC Program Rehberi",
+  //     ` Daha detaylı bilgiye ulaşmak için lütfen ilgili programa bir kere daha double click yapınız. `,
+  //     function () {
+  //       alertify.success("Double Click Yapınız.");
+  //     }
+  //   );
+  // };
+  const route = ({ id }) => {
+    window.location.replace(`/calendar/${id}`);
     
-  },[])
-  
-
+  };
   return (
     <>
       {!loading && (
@@ -134,8 +134,8 @@ const doubleClick = ( {id} ) => {
               localizer={localizer}
               events={documents}
               id={documents.id}
-              onDoubleClickEvent={({ id }) => {
-                doubleClick({ id });
+              onDoubleClickEvent={({id}) => {
+                route({id})
               }}
               startAccessor="start"
               endAccessor="end"

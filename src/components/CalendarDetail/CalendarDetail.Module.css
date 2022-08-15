@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=PT+Serif&display=swap");
+
+.calendar-detail-container {
+  margin-top: 221px;
+  margin-bottom: 221px;
+  font-family: "PT Serif", serif;
+  color: #404040;
+}
+.calendar-detail-body h1 {
+  font: 700 4rem/1 "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.time {
+  font: 700 1.5rem "Oswald", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  padding: 12px 0;
+  display: block;
+}
+
+.calendar-detail-link {
+  font: 700 1.2rem "Oswald", sans-serif;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #404040;
+}
+.calendar-detail-link:hover {
+  color: #404040;
+}
+.calendar-detail-link::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.calendar-detail-link:hover:after {
+  width: 22%;
+  background: #000;
+}
+
+.calendar-detail-link-div2{
+  padding-bottom: 28px;
+}
