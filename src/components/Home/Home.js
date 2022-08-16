@@ -13,7 +13,9 @@ import merve from "../../assets/merve.jpg";
 import sümeyye from "../../assets/sümeyye.jpg";
 import Project from "../Project/Project";
 import Loading from "../Loading/Loading";
+import "photoswipe/dist/photoswipe.css";
 
+import { Gallery, Item } from "react-photoswipe-gallery";
 const Home = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -127,6 +129,8 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="/"
                             style={{ background: "black" }}
                           >
@@ -138,6 +142,8 @@ const Home = () => {
                           <a
                             className="github"
                             href="/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
@@ -177,6 +183,8 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/muhammet-furkan-saydam-11b55a1a0/"
                             style={{ background: "black" }}
                           >
@@ -186,6 +194,8 @@ const Home = () => {
                         <li>
                           <a
                             className="github"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/FurkanSaydam"
                             style={{ background: "black" }}
                           >
@@ -226,7 +236,9 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
-                            href="/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/dennisclk/"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
@@ -236,6 +248,8 @@ const Home = () => {
                         <li>
                           <a
                             className="github"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/dennisclk"
                             style={{ background: "black" }}
                           >
@@ -276,7 +290,9 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
-                            href="/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/ramazantanrikulu/"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
@@ -285,7 +301,9 @@ const Home = () => {
                         <li>
                           <a
                             className="github"
-                            href="/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/Ramazantanrikulu"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
@@ -332,6 +350,8 @@ const Home = () => {
                             className="linkedin"
                             href="https://www.linkedin.com/in/merve-civan-1a21bb233"
                             style={{ background: "black" }}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="fa fa-linkedin"></i>
                           </a>
@@ -341,6 +361,8 @@ const Home = () => {
                             className="github"
                             href="https://github.com/Freedom-c"
                             style={{ background: "black" }}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="fa fa-github"></i>
                           </a>
@@ -379,6 +401,8 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/merve-civan-1a21bb233"
                             style={{ background: "black" }}
                           >
@@ -388,6 +412,8 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/sumeyyegms/sumeyyegms"
                             style={{ background: "black" }}
                           >
@@ -444,46 +470,54 @@ const Home = () => {
                 layout
                 whileHover={{ opacity: 1 }}
               >
-                <motion.img
-                  src={ders1}
-                  className="motion-img"
-                  id="modal-img"
-                  alt="yüklenen resim"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1 }}
-                />
-              </motion.div>
-
-              <motion.div
-                className="img-wrap"
-                layout
-                whileHover={{ opacity: 1 }}
-              >
-                <motion.img
-                  src={ders2}
-                  id="modal-img"
-                  alt="yüklenen resim"
-                  className="motion-img"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1 }}
-                />
+                <Gallery>
+                  <Item
+                    original={ders1}
+                    thumbnail={ders1}
+                    width="1024"
+                    height="768"
+                  >
+                    {({ ref, open }) => (
+                      <img ref={ref} onClick={open} src={ders1} alt="" />
+                    )}
+                  </Item>
+                </Gallery>
               </motion.div>
               <motion.div
                 className="img-wrap"
                 layout
                 whileHover={{ opacity: 1 }}
               >
-                <motion.img
-                  src={ders3}
-                  alt="yüklenen resim"
-                  id="modal-img"
-                  className="motion-img"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1 }}
-                />
+                <Gallery>
+                  <Item
+                    original={ders2}
+                    thumbnail={ders2}
+                    width="1024"
+                    height="768"
+                  >
+                    {({ ref, open }) => (
+                      <img ref={ref} onClick={open} src={ders2} alt="" />
+                    )}
+                  </Item>
+                </Gallery>
+              </motion.div>{" "}
+              <motion.div
+                className="img-wrap"
+                layout
+                whileHover={{ opacity: 1 }}
+              >
+                <Gallery>
+                  <Item
+                    original={ders3}
+                    thumbnail={ders3}
+                    width="1024"
+                    height="768"
+                  >
+                    {({ ref, open }) => (
+                      <img ref={ref} onClick={open} src={ders3} alt="" />
+                    )}
+                  </Item>
+                </Gallery>
               </motion.div>
             </div>
           </div>
