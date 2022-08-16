@@ -96,6 +96,7 @@ const CalendarPage = () => {
               textAlign: "center",
               justifyContent: "center",
               marginTop: "40px",
+              marginBottom:"20px"
             }}
           >
             <div
@@ -114,7 +115,7 @@ const CalendarPage = () => {
                 fontSize: "30px",
               }}
             >
-              Calendar
+              Takvim
             </span>
             <div
               style={{
