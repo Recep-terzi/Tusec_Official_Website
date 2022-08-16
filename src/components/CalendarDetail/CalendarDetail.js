@@ -48,7 +48,7 @@ const CalendarDetail = () => {
 
               {blog.link && (
                 <div className="calendar-detail-link-div">
-                  <a href={blog.link} className="calendar-detail-link">
+                  <a href={blog.link} className="calendar-detail-link" target="_blank" rel="noopener noreferrer">
                     Detayları görüntülemek için tıklayınız.
                   </a>
                 </div>
