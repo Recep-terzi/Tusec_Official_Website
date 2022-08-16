@@ -52,15 +52,52 @@ const Contact = ({ type, color }) => {
       )}
       {loading && (
         <>
-          <div className="container">
-            
+          <div
+            className="container"
+            style={{ marginTop: "120px", marginBottom: "50px" }}
+          >
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                textAlign: "center",
+                justifyContent: "center",
+                marginTop: "40px",
+                marginBottom: "20px",
+              }}
+            >
+              <div
+                style={{
+                  background: "gray",
+                  flex: "1",
+                  borderBottom: "1px solid black",
+                  height: "2px",
+                }}
+              />
+              <span
+                style={{
+                  paddingLeft: "16px",
+                  paddingRight: "16px",
+                  fontWeight: "bold",
+                  fontSize: "30px",
+                }}
+              >
+                İletişim Formu
+              </span>
+              <div
+                style={{
+                  background: "gray",
+                  flex: "1",
+                  borderBottom: "1px solid black",
+                  height: "2px",
+                }}
+              />
+            </div>
             <div className="row contact-row">
               <div className="col-md-6 contact-img-col">
                 <img className="contact-tusec-img" src={tusec2} alt=""></img>
-                <p className="contact-tusec-text">TUSEC İletişim Formu</p>
               </div>
               <form onSubmit={sendEmail} className="col-md-6 contact-value">
-                
                 <div className="contact-inputs">
                   <TextField
                     id="standard-basic"
