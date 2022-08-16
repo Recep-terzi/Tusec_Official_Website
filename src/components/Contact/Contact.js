@@ -56,6 +56,7 @@ const Contact = ({ type, color }) => {
             <div className="row contact-row">
               <div className="col-md-6 contact-img-col">
                 <img className="contact-tusec-img" src={tusec2} alt=""></img>
+                <p className="contact-tusec-text">TUSEC İletişim Formu</p>
               </div>
               <form onSubmit={sendEmail} className="col-md-6 contact-value">
                 
