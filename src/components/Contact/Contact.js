@@ -53,6 +53,7 @@ const Contact = ({ type, color }) => {
       {loading && (
         <>
           <div className="container">
+            
             <div className="row contact-row">
               <div className="col-md-6 contact-img-col">
                 <img className="contact-tusec-img" src={tusec2} alt=""></img>
