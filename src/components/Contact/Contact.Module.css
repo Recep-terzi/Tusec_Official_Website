@@ -25,13 +25,7 @@
 .contact-input{
     width: 400px;
 }
-.contact-tusec-text{
-    font-size:30px;
-    text-align: center;
-    margin-top: 40px;
-    display:none;
-    font-weight: 500;
-}
+
 @media  screen and (max-width:480px){
     .contact-tusec-img{
         width: 305px;
@@ -57,7 +51,5 @@
     .contact-row{
         margin: 10px;
     }
-    .contact-tusec-text{
-        display: block;
-    }
+    
 }
