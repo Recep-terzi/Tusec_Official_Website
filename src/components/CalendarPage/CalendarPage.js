@@ -138,7 +138,7 @@ const CalendarPage = () => {
               style={{ height: 550 }}
             />
           </div>
-          <div></div>
+          <div className="detail-text">Detayları görmek için görmek istediğiniz program'a çift tıklayınız.</div>
         </div>
       )}
     </>

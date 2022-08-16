@@ -32,7 +32,14 @@
   }
 }
 
-
+.detail-text{
+  font-size:16px;
+  opacity: 0.8;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.153);
+  width: 460px;
+  
+}
 
 /* Tooltip text */
 .tooltip .tooltiptext {
