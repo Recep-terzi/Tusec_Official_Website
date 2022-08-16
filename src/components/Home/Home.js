@@ -177,7 +177,7 @@ const Home = () => {
                         <li>
                           <a
                             className="linkedin"
-                            href="/"
+                            href="https://www.linkedin.com/in/muhammet-furkan-saydam-11b55a1a0/"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
@@ -186,7 +186,7 @@ const Home = () => {
                         <li>
                           <a
                             className="github"
-                            href="/"
+                            href="https://github.com/FurkanSaydam"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
@@ -236,7 +236,7 @@ const Home = () => {
                         <li>
                           <a
                             className="github"
-                            href="/"
+                            href="https://github.com/dennisclk"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
