@@ -49,7 +49,7 @@ const Home = () => {
               className=""
             >
               <img src={tusec} className="tusec-img" alt=""></img>
-              <p className="tusec-img-text">TRAKYA UNİVERSİTY SECURİTY</p>
+              <p className="tusec-img-text">TRAKYA UNIVERSITY SECURITY</p>
             </div>
           </div>
           <div className="container">

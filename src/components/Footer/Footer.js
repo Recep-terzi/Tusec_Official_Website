@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="text-justify">
               {" "}
               Trakya Üniversitesi Security Keşan Yusuf Çapraz Uygulamalı
-              Bilimler Yüksekokulu bünyesinde kurulmuş bir klüptür{" "}
+              Bilimler Yüksekokulu bünyesinde kurulmuş bir kulüptür.{" "}
             </p>
           </div>
 
