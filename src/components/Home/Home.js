@@ -83,7 +83,7 @@ const Home = () => {
                   fontSize: "30px",
                 }}
               >
-                Klüp Üyeleri
+                Kulüp Üyeleri
               </span>
               <div
                 style={{
