@@ -18,13 +18,11 @@ const Footer = () => {
             <h6>Hızlı Linkler</h6>
             <ul className="footer-links">
               <li>
-                <a href="http://scanfcode.com/about/">Hakkımızda</a>
+                <a href="http://scanfcode.com/about/">Blog</a>
               </li>
+              
               <li>
-                <a href="http://scanfcode.com/contact/">Projeler</a>
-              </li>
-              <li>
-                <a href="http://scanfcode.com/contribute-at-scanfcode/">Blog</a>
+                <a href="http://scanfcode.com/contribute-at-scanfcode/">Takvim</a>
               </li>
               <li>
                 <a href="http://scanfcode.com/privacy-policy/">İletişim</a>
