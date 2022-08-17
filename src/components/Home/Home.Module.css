@@ -151,3 +151,6 @@
   margin-top: 80px;
   margin-bottom: 80px;
 }
+.card-body .social-icons a{
+  background: #000;
+}

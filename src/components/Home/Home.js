@@ -132,7 +132,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/seyit-yusuf-baş-17a501222/"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
                           </a>
@@ -144,7 +143,6 @@ const Home = () => {
                             href="https://github.com/SeyhSeyit"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
                           </a>
@@ -186,7 +184,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/muhammet-furkan-saydam-11b55a1a0/"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
                           </a>
@@ -197,7 +194,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://github.com/FurkanSaydam"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
                           </a>
@@ -239,7 +235,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/dennisclk/"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
                           </a>
@@ -251,7 +246,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://github.com/dennisclk"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
                           </a>
@@ -293,7 +287,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/ramazantanrikulu/"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
                           </a>
@@ -304,7 +297,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://github.com/Ramazantanrikulu"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
                           </a>
@@ -349,7 +341,6 @@ const Home = () => {
                           <a
                             className="linkedin"
                             href="https://www.linkedin.com/in/merve-civan-1a21bb233"
-                            style={{ background: "black" }}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -360,7 +351,6 @@ const Home = () => {
                           <a
                             className="github"
                             href="https://github.com/Freedom-c"
-                            style={{ background: "black" }}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -404,7 +394,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/merve-civan-1a21bb233"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
                           </a>
@@ -415,7 +404,6 @@ const Home = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://github.com/sumeyyegms/sumeyyegms"
-                            style={{ background: "black" }}
                           >
                             <i className="fa fa-github"></i>
                           </a>
