@@ -19,6 +19,14 @@
 .rbc-event-allday {
   background: #8b8787;
 }
+
+.detail-text{
+  font-size:16px;
+  opacity: 0.8;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.153);
+  width: 460px;
+}
 @media screen and (max-width: 760px) {
   .calendar-div {
     display: grid;
@@ -30,15 +38,12 @@
     margin-bottom: 25px;
     margin-top: 25px;
   }
+  .detail-text{
+    width:400px;
+    border-bottom: none;
+  }
 }
 
-.detail-text{
-  font-size:16px;
-  opacity: 0.8;
-  margin-top: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.153);
-  width: 460px;
-}
 
 /* Tooltip text */
 .tooltip .tooltiptext {
