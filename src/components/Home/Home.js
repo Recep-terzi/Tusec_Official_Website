@@ -131,7 +131,7 @@ const Home = () => {
                             className="linkedin"
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="/"
+                            href="https://www.linkedin.com/in/seyit-yusuf-baş-17a501222/"
                             style={{ background: "black" }}
                           >
                             <i className="fa fa-linkedin"></i>
@@ -141,7 +141,7 @@ const Home = () => {
                         <li>
                           <a
                             className="github"
-                            href="/"
+                            href="https://github.com/SeyhSeyit"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ background: "black" }}
