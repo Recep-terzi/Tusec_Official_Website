@@ -18,21 +18,13 @@ const Contact = ({ type, color }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_szbko5d",
-        "template_5mg3icl",
-        e.target,
-        "ROCPvsXvgpEVmGnb6"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_szbko5d",
+      "template_5mg3icl",
+      e.target,
+      "ROCPvsXvgpEVmGnb6"
+    );
+
     e.target.reset();
     setEmail("");
     setKonu("");

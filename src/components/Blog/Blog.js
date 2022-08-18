@@ -25,7 +25,6 @@ const Blog = () => {
       });
     }, 2000);
   }, []);
-  console.log(blogs);
   return (
     <>
       {!loading && (
@@ -41,27 +40,21 @@ const Blog = () => {
           <div className="row">
             <div className="col-md-8">
               {blogs.map((blog) => (
-                <>
-                  <div className=" haber-row">
-                    <div className="">
-                      <img
-                        src={blog.image}
-                        className="haber-image"
-                        alt=""
-                      ></img>
-                    </div>
-                    <div className=" haber-col">
-                      <ul>
-                        <p className="tusec-text">TUSEC</p>
-                      </ul>
-                      <h4 className="haber-baslik">
-                        <Link to={`/blogdetail/${blog.id}`}>{blog.title}</Link>
-                      </h4>
-                      <p className="haber-aciklama">{blog.aciklama}</p>
-                      <p className="yazar">writing by {blog.yazar}.</p>
-                    </div>
+                <div className=" haber-row" key={blog.id}>
+                  <div className="">
+                    <img src={blog.image} className="haber-image" alt=""></img>
                   </div>
-                </>
+                  <div className=" haber-col">
+                    <ul>
+                      <p className="tusec-text">TUSEC</p>
+                    </ul>
+                    <h4 className="haber-baslik">
+                      <Link to={`/blogdetail/${blog.id}`}>{blog.title}</Link>
+                    </h4>
+                    <p className="haber-aciklama">{blog.aciklama}</p>
+                    <p className="yazar">writing by {blog.yazar}.</p>
+                  </div>
+                </div>
               ))}
             </div>
             <div className="col-md-4 populer-haberler">
