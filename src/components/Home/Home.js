@@ -384,6 +384,7 @@ const Home = () => {
                       style={{
                         width: "170px",
                         height: "170px",
+                        objectFit: "cover",
                         borderRadius: "50%",
                       }}
                     />
