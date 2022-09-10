@@ -556,7 +556,7 @@ const Home = () => {
                     original={ders6}
                     thumbnail={ders6}
                     width="1024"
-                    height="768"
+                    height="1200"
                   >
                     {({ ref, open }) => (
                       <img ref={ref} onClick={open} src={ders6} alt="" />
