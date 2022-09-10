@@ -3,6 +3,9 @@ import "./Home.Module.css";
 import { motion } from "framer-motion";
 import tusec from "../../assets/tusec2-removebg-preview.png";
 import ders1 from "../../assets/ders1.jpeg";
+import ders4 from "../../assets/ders4.jpg";
+import ders5 from "../../assets/ders5.jpg";
+import ders6 from "../../assets/ders6.jpg";
 import ders2 from "../../assets/ders2.jpeg";
 import ders3 from "../../assets/ders3.jpeg";
 import seyit from "../../assets/seyit.jpg";
@@ -503,6 +506,60 @@ const Home = () => {
                   >
                     {({ ref, open }) => (
                       <img ref={ref} onClick={open} src={ders3} alt="" />
+                    )}
+                  </Item>
+                </Gallery>
+              </motion.div>
+              <motion.div
+                className="img-wrap"
+                layout
+                whileHover={{ opacity: 1 }}
+              >
+                <Gallery>
+                  <Item
+                    original={ders4}
+                    thumbnail={ders4}
+                    width="1024"
+                    height="768"
+                  >
+                    {({ ref, open }) => (
+                      <img ref={ref} onClick={open} src={ders4} alt="" />
+                    )}
+                  </Item>
+                </Gallery>
+              </motion.div>
+              <motion.div
+                className="img-wrap"
+                layout
+                whileHover={{ opacity: 1 }}
+              >
+                <Gallery>
+                  <Item
+                    original={ders5}
+                    thumbnail={ders5}
+                    width="1024"
+                    height="768"
+                  >
+                    {({ ref, open }) => (
+                      <img ref={ref} onClick={open} src={ders5} alt="" />
+                    )}
+                  </Item>
+                </Gallery>
+              </motion.div>
+              <motion.div
+                className="img-wrap"
+                layout
+                whileHover={{ opacity: 1 }}
+              >
+                <Gallery>
+                  <Item
+                    original={ders6}
+                    thumbnail={ders6}
+                    width="1024"
+                    height="768"
+                  >
+                    {({ ref, open }) => (
+                      <img ref={ref} onClick={open} src={ders6} alt="" />
                     )}
                   </Item>
                 </Gallery>

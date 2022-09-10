@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.Module.css";
 
 import { init } from "ityped";
@@ -19,39 +19,34 @@ const Navbar = () => {
       strings: ["Welcome to", "TUSEC", ":)"],
     });
   }, []);
-  let activeClassName = "active"
+  let activeClassName = "active";
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <NavLink  to="/" className="nav-logo">
+          <NavLink to="/" className="nav-logo">
             <img
               src={tusec}
               alt=""
               style={{ width: "60px", marginRight: "10px" }}
             ></img>
-            
-            <Typography
-                component="div"
-                sx={{ flexGrow: 1,fontSize:"30px",fontWeight:"bold" }}
-                className="kayan-yazi"
 
-                ref={textRef}
-              ></Typography>
-          
+            <Typography
+              component="div"
+              sx={{ flexGrow: 1, fontSize: "30px", fontWeight: "bold" }}
+              className="kayan-yazi"
+              ref={textRef}
+            ></Typography>
           </NavLink>
-          
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-           
-            
-           
             <li className="nav-item">
               <NavLink
                 to="/blog"
-                 
-                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
+                className={({ isActive }) =>
+                  isActive ? activeClassName : "nav-links"
+                }
                 onClick={click ? handleClick : null}
               >
                 Blog
@@ -60,8 +55,9 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/calendar"
-                 
-                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
+                className={({ isActive }) =>
+                  isActive ? activeClassName : "nav-links"
+                }
                 onClick={click ? handleClick : null}
               >
                 Takvim
@@ -70,8 +66,9 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/contact"
-                 
-                className={({isActive}) => isActive ? activeClassName : 'nav-links'}
+                className={({ isActive }) =>
+                  isActive ? activeClassName : "nav-links"
+                }
                 onClick={click ? handleClick : null}
               >
                 İletişim

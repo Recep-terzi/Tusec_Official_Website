@@ -20,11 +20,15 @@ function App({ type, color }) {
   return (
     <>
       {!loading && (
-        <Loading type={"spinningBubbles"} color={"black"} height={"7%"} width={"7%"} />
+        <Loading
+          type={"spinningBubbles"}
+          color={"black"}
+          height={"7%"}
+          width={"7%"}
+        />
       )}
       {loading && (
         <>
-        
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
@@ -33,7 +37,12 @@ function App({ type, color }) {
             <Route path="/calendar/:id" element={<CalendarDetail />}></Route>
             <Route path="/blog" element={<Blog />}></Route>
             <Route path="/blogdetail/:id" element={<BlogDetail />}></Route>
-            <Route path="/contact" element={<Contact />} type={type} color={color}></Route>
+            <Route
+              path="/contact"
+              element={<Contact />}
+              type={type}
+              color={color}
+            ></Route>
           </Routes>
           <Footer />
         </>
