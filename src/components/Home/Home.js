@@ -12,7 +12,6 @@ import seyit from "../../assets/seyit.jpg";
 import furkan from "../../assets/furkan.jpg";
 import deniz from "../../assets/deniz.jpg";
 import ramazan from "../../assets/ramazan.jpg";
-import merve from "../../assets/merve.jpg";
 import sümeyye from "../../assets/sümeyye.jpg";
 import Project from "../Project/Project";
 import Loading from "../Loading/Loading";
