@@ -328,57 +328,6 @@ const Home = () => {
                   >
                     <img
                       className="card-img-top"
-                      src={merve}
-                      alt=""
-                      style={{
-                        width: "170px",
-                        height: "170px",
-                        borderRadius: "50%",
-                      }}
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Merve Civan</h5>
-                      <p className="card-text">Cyber Security</p>
-                      <ul className="social-icons">
-                        <li>
-                          <a
-                            className="linkedin"
-                            href="https://www.linkedin.com/in/merve-civan-1a21bb233"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fa fa-linkedin"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="github"
-                            href="https://github.com/Freedom-c"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fa fa-github"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div
-                    className="card"
-                    style={{
-                      width: "18rem",
-                      textAlign: "center",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      padding: "10px",
-                      boxShadow: "2px 4px 15px 0px rgba(0,0,0,0.75)",
-                      borderRadius: "10px",
-                    }}
-                  >
-                    <img
-                      className="card-img-top"
                       src={sümeyye}
                       alt=""
                       style={{
