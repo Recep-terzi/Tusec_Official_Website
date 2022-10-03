@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="copyright-text">
               Copyright &copy; 2022 All Rights Reserved by
               <a
-                href="https://github.com/Recep-terzi"
+                href="https://pyson.netlify.app"
                 target="_blank"
                 rel="noreferrer"
                 style={{
